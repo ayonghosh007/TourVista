@@ -8,5 +8,20 @@
 
 /* Use the custom font in your CSS */
 body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.websiteName {
     font-family: 'Ananda Namaste', sans-serif;
+    font-size: 75px;
+    word-spacing: 5px;
+    font-weight: bold;
+    height: 100px;
+    align-content: center;
 }

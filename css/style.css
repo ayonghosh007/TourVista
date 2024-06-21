@@ -1,0 +1,12 @@
+/* Define the normal weight */
+@font-face {
+    font-family: 'Ananda Namaste';
+    src: url('fonts/ananda namaste.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the custom font in your CSS */
+body {
+    font-family: 'Ananda Namaste', sans-serif;
+}

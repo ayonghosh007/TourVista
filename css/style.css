@@ -8,6 +8,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -17,35 +18,56 @@ body {
 }
 
 .header .websiteName {
+    font-family: 'Ananda Namaste', sans-serif;
     color: black;
     text-decoration: none;
-    font-family: 'Ananda Namaste', sans-serif;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
     font-weight: bold;
     user-select: none;
-    margin: 0rem;
-    padding: 0rem;
+    font-size: 220%;
+    align-content: center;
 }
 
 .header .websiteName img {
     padding-right: 0.3rem;
 }
 
+.navbar li {
+    align-content: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.header .links {
+    font-size: 120%;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
 .header .userLinks {
     background-color: azure;
-    padding: 1rem;
-    margin-left: 0.5rem;
+    padding: 0.6rem;
     transition-duration: 0.4s;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header .userLinks:hover {
-    background-color: rgb(0, 123, 255);
+    background-color: rgb(12, 162, 231);
     color: azure;
 }
 
-.body {
-    background-color: rgb(0, 144, 201);
-    width: 100%;
-    height: 1000px;
+.header .searchBar {
+    padding-left: 1.1rem;
+    border-radius: 0%;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.header .searchBtn {
+    border-radius: 0%;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: rgb(12, 162, 231);
 }

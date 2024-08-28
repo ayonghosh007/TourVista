@@ -1,0 +1,123 @@
+/* Reset some basic elements */
+@font-face {
+    font-family: 'Ananda Namaste';
+    src: url('ananda namaste.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+.head {
+    font-family: 'Ananda Namaste', sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.logo
+{
+    margin-right: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Navbar styles */
+.main-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.main-navbar .navbar-brand {
+    font-weight: 700;
+    color: #343a40;
+}
+
+.main-navbar .nav-link {
+    font-weight: 500;
+    color: #343a40;
+}
+
+.main-navbar .nav-link:hover {
+    color: #007bff;
+}
+
+/* Dashboard Header */
+.container h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+    text-align: center;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #e7dede;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #343a40;
+}
+
+.list-group-item {
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #343a40;
+}
+
+.list-group-item:hover {
+    background-color: #0289f0;
+}
+
+/* Chart Container */
+.card .card-body canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+}

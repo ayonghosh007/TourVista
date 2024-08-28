@@ -1,50 +1,1013 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yatraphile</title>
-        <link rel="icon" href="img/logo.png">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="navbar navbar-expand-lg navbar-light header">
-            <a class="navbar-brand websiteName" href="index.html"><img src="img/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">Yatraphile</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav ml-auto">
-                    <li><a class="nav-link links" href="#">Discover</a></li>
-                    <li><a class="nav-link links" href="#">Community</a></li>
-                    <li><a class="nav-link links" href="#">About Us</a></li>
-                    <li><a class="nav-link links" href="#">Help & Support</a></li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li>
-                        <form class="form-inline searchFrm">
-                            <input class="form-control ml-sm-3 searchBar" style="width: 240px; max-width: 400px;" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-primary my-2 my-sm-0 mr-sm-3 searchBtn" type="submit">Search</button>
-                        </form>
-                    </li>
-                    <li><a class="btn userLinks" href="#">LOGIN</a></li>
-                    <li><a class="btn userLinks" href="#">SIGN UP</a></li>
-                </ul>
+  <head>
+    <title>YatraPhile: Your Tour Guide</title>
+    <link rel="icon" href="LOGO/logo.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+  </head>
+  <body>
+    <!---Navbar-->  
+    <nav class="navbar navbar-expand-lg navbar-light main-navbar
+      bg m-navbar-light" id="main-navbar">
+      <div class="container">
+          <a class="navbar-brand head"href="index.html"><img src="logo.png" width="40" height="40" class="d-inline-block align-center logo" alt="">Yatraphile</a>
+          <button class="navbar-toggler"type="button"data-toggle="collapse"
+          data-target="#my-nav" aria-controls="p-nav"aria-expanded="false"
+          aria-label="toggle-navigation">
+        <span>Menu</span>
+        </button>
+        <div class="collapse navbar-collapse"id="my-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="#"class="nav-link item"><h6>Home</h6></a>
+                </li>
+                <li class="nav-item">
+                    <a href=""class="nav-link item"><h6>About us</h6></a>
+                </li> 
+                <li class="nav-item">
+                    <a href=""class="nav-link item"><h6>Community</h6></a>
+                </li>
+                <li class="nav-item">
+                    <a href="maps.html"class="nav-link item"><h6>Maps</h6></a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link"><h6>Login/SignUp</h6></a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End of navbar-->
+    <!---Hero-Image-->
+    <section class="hero-wrap"
+    style="background-image:url('Pic Cimange/main_BG.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters main-text align-items-center">
+            <div class="col-lg-7 col-md-6 d-flex align-items-end">
+                <div class="text">
+                    <h1 class="mb-4 text-capitalize">find a perfect deal<br>
+                        for your next trip
+                      </h1>
+                      <p style="font-size:18px;">Your Problems: Trip Planning,Ticket Booking,Spot Informations,Blogs and Spot fixing 
+                    </p>
+                    <p style="font-size: 20px;">Solution: This Organization</p>
+                    <a href="#" class="btn btn-hero py-2 px-3">View all</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!---End of Hero-Image-->
+<!---Search section-->
+<section>
+    <div class="section-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 tab-search">
+              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</a>
+              <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
+              <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Car Rents</a>
+              <a class="nav-link p-3" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Cruises</a>
+            </div>
+          </div>
+
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="block-17">
+                <form class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="date" id="date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="date" id="date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                   <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Flights">
+                </form>
               </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Hotel"></div>
+
+                    <div class="check-in one-third"><input type="date" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="date" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="date" id="start_date" class="form-control" placeholder="Start date"></div>
+
+                    <div class="check-out one-third"><input type="date" id="return_date" class="form-control" placeholder="Return date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Car">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third one-third-1"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+
+                    <div class="check-out one-third one-third-1"><input type="date" id="start_date" class="form-control" placeholder="Check-out date"></div>
+
+                    <div class="select-wrap one-third one-third-1">
+                      <div class="icon"></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Categories</option>
+                        <option value="">Suite</option>
+                        <option value="">Super Deluxe</option>
+                        <option value="">Economy</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Cruise">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---End of Search section-->
+<!---Welcome/about section-->
+<section class="about-section mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center heading-section mb-5">
+                <h2 class="text-black mb-2">Welcome To YatraPhile</h2>
+                <p>The most trusted torism management organization with the most recent techniques and advanced solutions to your Tour Problems!!</p>
+            </div>
+        </div>
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                        <a href="#" class="effect">
+                            <img src="https://i.postimg.cc/P5n01vCY/about-1.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                        <h2 class="text-black">Culture</h2>
+                        <p class="mb-4">
+                            YatraPhile celebrates the rich and diverse culture of India. Our tours take you through the heart of India's cultural heritage, from the ancient temples of Khajuraho to the colorful festivals of Rajasthan. Experience the vibrant traditions, delicious cuisine, and warm hospitality that make India truly incredible.
+                        </p>
+                        <a href="#"class="btn btn-about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6">
+                        <a href="#" class="effect">
+                            <img src="https://i.postimg.cc/1XjnLZq1/about-2.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 ml-auto align-self-center order-lg-1">
+                        <h2 class="text-black">History</h2>
+                        <p class="mb-4">
+                            YatraPhile takes you on a journey through world's rich history, from the ancient old Civilizations to the modern tourist aspects. Experience the grandeur of worlds's historical monuments, forts, and palaces, and learn about the  diverse cultural heritage.
+                        </p>
+                        <a href="#"class="btn btn-about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                        <a href="#" class="effect">
+                            <img src="https://i.postimg.cc/1X9r9PXg/about-3.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                        <h2 class="text-black">Nature</h2>
+                        <p class="mb-4">
+                            At YatraPhile, we believe that nature is one of the most precious gifts we have. That's why we offer a wide range of nature-based tours and activities, from hiking and camping in the mountains to beach vacations and wildlife safaris. Our experienced guides will take you to some of the most beautiful and unspoiled places on earth, where you can experience the breathtaking beauty and diversity of nature up close. Whether you're an experienced adventurer or just looking to get away from it all, we have something for everyone. Join us on a journey of discovery and reconnection with nature, and create memories that will last a lifetime.
+                        </p>
+                        <a href="#"class="btn btn-about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+    </div>
+</section>
+<!------------->
+<!---Popular Places-->
+<section>
+      <!-- Popular Places -->
+      <div class="popular section-bg img-effect mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+        <div class="section-title text-center">                      
+          <h1 class="text-white">Popular Places </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ End of Popular Places-->
+    <!-- Other Popular  -->
+    <div class="all-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-md-5">
+                    <div class="single-img">
+                        <div class="img-thumb">
+                            <img src="dubai.jpg" alt="">
+                        </div>
+                        <div class="img-hover">
+                            <div class="title">
+                                    <h3>Dubai</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="single-img">
+                        <div class="img-thumb">
+                            <img src="nyc.jpg" alt="">
+                        </div>
+                        
+                        <div class="img-hover">
+                            <div class="title">
+                                    <h3>New York City</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="lotus temple.jpg" alt="">
+                        </div>
+                       <div class="img-hover">
+                        <div class="title">
+                        <h3>New Delhi</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="saint_petersberg.jpg" alt="">
+                        </div>
+                         <div class="img-hover">
+                            <div class="title">
+                                    <h3>Russia</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="kedarnath-temple-tourists-4k-f3cusz8bzfqat2nh.jpg" alt="">
+                        </div>
+                     <div class="img-hover">
+                            <div class="title">
+                                    <h3>Kedarnath</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              </div>
+    </div>
+  
+    </section>
+<!--end of Popular Places-->
+<!---services Section-->
+<section id="services" class="services section-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="section-title">
+                    <h2>Services We Provide</h2>
+                    <p>
+                        At YatraPhile, we offer a wide range of travel services to help you plan and book your dream vacation. Whether you're looking for flights, hotels, car rentals, or cruises, we've got you covered. Our team of experts will work with you to create a customized travel itinerary that fits your budget, interests, and schedule. We'll handle all the details, from booking your flights and accommodations to arranging transportation and activities, so you can relax and enjoy your trip. Let us take care of the logistics, so you can focus on making memories.
+                    </p>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-stretch">
+                        <div class="icon-circle purple">
+                            <div class="icon">
+                                <i class="fas fa-pizza-slice"></i>
+                            </div>
+                            <h4 class="text-white">Good Food</h4>
+                            <p>At YatraPhile, we believe that food is an essential part of any travel experience. That's why we offer a wide range of culinary experiences to suit every taste and budget. Whether you're looking for fine dining, street food, or something in between, we've got you covered.</p>
+                            
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="icon-circle pink">
+                            <div class="icon">
+                                <i class="fas fa-umbrella-beach"></i>
+                            </div>
+                            <h4 class="text-white">Beach Resort</h4>
+                            <p>At YatraPhile, we offer a wide range of beach resort experiences to suit every taste and budget. Whether you're looking for a relaxing getaway or an action-packed vacation, Our beach resorts offer a wide range of amenities, including swimming pools, spas, fitness centers, and water sports.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="icon-circle yellow">
+                            <div class="icon">
+                                <i class="fas fa-hiking"></i>
+                            </div>
+                            <h4 class="text-white">Mountain-climbing</h4>
+                            <p>At YatraPhile, we offer a variety of mountain-climbing experiences for adventure-seekers of all levels,If you are beginner or a experienced hiker, services are for all, so grab the opportunity and  Join us on a mountain-climbing adventure and create memories that will last a lifetime.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="icon-circle blue">
+                            <div class="icon">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h4 class="text-white">Hot Air Ballon</h4>
+                            <p>YatraPhile's hot air balloon experience is designed to provide you with a safe, enjoyable, and unforgettable adventure. The company's experienced pilots will be at your support. Looking for a new and exciting way to see the world, consider YatraPhile's hot air balloon experience.</p>
+                        </div>
+                    </div>
+                    <!---->
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---End of Services Section-->
+
+<!--- Team Section-->
+<section class="team section-bg mt-5">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="text-center">Team</h2>
+            <p class="text-center">Meet our dedicated team members who make your travel dreams a reality</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="441506583_1463239825075890_4313725962891822342_n.jpg"class="img-fluid"alt="" height="400px" width="400px">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="member-info">
+                        <h4>Ayon Ghosh</h4>
+                        <span>CEO,Co-Founder</span>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="366519809_250521367792362_8935526954773908438_n.jpg"class="img-fluid"alt="" height="310px" width="300px">
+   <div class="social">
+        <a href=""><i class="fab fa-facebook"></i></a>
+             <a href=""><i class="fab fa-twitter"></i></a>
+           <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
         </div>
 
-        <div class="container-fluid">
+     </div>
+                    <div class="member-info">
+                        <h4>Jit Dey</h4>
+                        <span>CFO,Co-Founder</span>
+                    </div>
+                </div>
+            </div>
+            <!---->
+    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+  <img src="368294047_122098611410019245_3324248968633123228_n.jpg"class="img-fluid"alt="">
+       <div class="social">
+        <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+           <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          </div>
+  </div>
+     <div class="member-info">
+                        <h4>Archit Banerjee</h4>
+                        <span>CTO, Co-Founder</span>
+                    </div>
+                </div>
+            </div>
+        <!---->
+
+
 
         </div>
-    </body>
+    </div>
+</section>
+<!---End of Team Section-->
+<!---Package Section-->
+<section class="package section-padding mt-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-5">
+                <div class="section-title text-center">
+                    <h2 class="py-3">Packages We Offer</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xl-6">
+                <div class="package-1">
+                    <img src="https://i.postimg.cc/bNr1Lmtj/fa-3.jpg"class="img-fluid"alt="">
+                    <div class="package-text">
+                        <p>EXCLUSIVE EUROPE!</p>
+                        <a href="#"class="btn-package p-2">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-md-6 col-xl-6">
+                <div class="package-1">
+                    <img src="https://i.postimg.cc/cCwGNRK1/fa-2.jpg"class="img-fluid"alt="">
+                    <div class="package-text">
+                        <p>AROMATIC ASIA!</p>
+                        <a href="#"class="btn-package p-2">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---End of Package Section-->
+<!--- Historical Places Section-->
+<section class="mt-2">
+    <div class="historical-places">
+        <div class="container">
+            <div class="row-justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center mb-70">
+                        <h3 class="text-uppercase-text-center"><center>historical places</center></h3>
+                        <p class="text-center">Step back in time and explore the rich history of ancient civilizations, grand monuments, and cultural heritage sites with YatraPhile's handpicked historical places. Immerse yourself in the stories of the past and create unforgettable memories.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">₹40000</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Mesmerizing Mesopotemia</h3>
+                            </a>
+                            <p>Unravel the mystries</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="https://i.postimg.cc/cCwGNRK1/fa-2.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">₹3000</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Exclusive Europe</h3>
+                            </a>
+                            <p>Unravel the mystries</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="https://i.postimg.cc/bNr1Lmtj/fa-3.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">₹45000</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Russia</h3>
+                            </a>
+                            <p>Unravel the mystries.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="https://i.postimg.cc/W3ZHD2sX/fa-4.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">₹35000</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Paris</h3>
+                            </a>
+                            <p>Unravel the mystries</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="https://i.postimg.cc/nz1qS52n/fa-5.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">₹45000</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Gladiators of Colleseum</h3>
+                            </a>
+                            <p>Explore more.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">₹25000</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Xyz</h3>
+                            </a>
+                            <p>Unravel the History.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="btn-hist text-center ">
+                      <div><a href="#" class="btn btn-hist">More Places</a></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!---End of Historical Places Section-->
+<!---Customers Section-->
+<section class="testimonial-section mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Happy Customers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="testimonial-item">
+                    <div class="test-date">
+                        09/08/2020
+                    </div>
+                    <h4>Best organisation for tourism
+
+                    </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The service is best in here,Yatraphile gives the best accomodations.It is definately recommended for experienced to newbie tourists </p>
+                    <div class="customer">
+                        <div class="customer-photo">
+                            <img src="male reviewer.jpg"alt="">
+                        </div>
+                        <div class="test-text">
+                            <h6>Samuel Ederson <span>England</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-6">
+                <div class="testimonial-item">
+                    <div class="test-date">
+                        09/08/2020
+                    </div>
+                    <h4>Best Organization for tourism
+                    </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The service is best in here,Yatraphile gives the best accomodations.It is definately recommended for experienced to newbie tourist</p>
+                    <div class="customer">
+                        <div class="customer-photo">
+                            <img src="female reviewer.jpg"alt="">
+                        </div>
+                        <div class="test-text">
+                            <h6>Sarah Johnson <span>USA</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----->
+        </div>
+    </div>
+</section>
+<!---End of Customers Section-->
+<!--- Blog Section-->
+<section class="blog-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2 class="text-center pb-2">
+                        Recent Blog
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <img src="https://i.postimg.cc/FK4dtp7z/img-1.jpg" class="img-fluid" alt="">
+                    <div class="blog-detail">
+                        <div class="blog-date">
+                            March 09,2024
+                        </div>
+                        <a href="#"class="tag">#YatraPhile</a>
+                    </div>
+                    <h4><a href="#">Exclusive Europe </a></h4>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <img src="https://i.postimg.cc/gkx63rCz/img-2.jpg" class="img-fluid" alt="">
+                    <div class="blog-detail">
+                        <div class="blog-date">
+                            January 23,2024
+                        </div>
+                        <a href="#"class="tag">#Yatraphile</a>
+                    </div>
+                    <h4><a href="#">The drama scenes of the China</a></h4>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <img src="https://i.postimg.cc/Hnd1dJbQ/img-3.jpg" class="img-fluid" alt="">
+                    <div class="blog-detail">
+                        <div class="blog-date">
+                            August 09,2023
+                        </div>
+                        <a href="#"class="tag">#Yatraphile</a>
+                    </div>
+                    <h4><a href="#">Mesmerizing Morocco.</a></h4>
+                </div>
+            </div>
+            <!----->
+        </div>
+    </div>
+</section>
+<!---End of Blog Section-->
+<!---Contact Section-->
+<section class="contact mt-3">
+<div class="container">
+    <div class="section-title">
+        <h2 class="text-center">
+            Contact Us
+        </h2>
+        <p class="text-center">
+            Any issues with the service or any booking of amenitites and experience the best opportunities in a tour, Join Us!!
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-box">
+                        <i class="fas fa-share"></i>
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href="#"class="twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#"class="facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#"class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#"class="linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="icon-box mt-4">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>info@yatraphile.ac.in</p>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="icon-box mt-4">
+                        <i class="fas fa-phone"></i>
+                        <h3>24/7 support</h3>
+                        <p>+91 72343 56782</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 form-group">
+                        <input type="text"name="name"class="form-control"
+                        id="name"placeholder="your name">
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input type="email"name="email"class="form-control"
+                        id="email"placeholder="your email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control"name="subject"
+                    id="subject"placeholder="subject">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control"name="message"row="6"
+                    placeholder="Message"></textarea>
+                </div>
+                <div><a href="#" class="btn btn-about">Send Message</a></div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</section> 
+<!---End of Contact Section-->
+<!------>
+<section class="instagram mt-5">
+    <div class="container-fluid">
+        <div class="row no-gutters justify-content-center pb-5">
+            <div class="col-md-7 text-center heading-section">
+                <h2><span>Instagram</span></h2>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md">
+                <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid">
+                <div class="icon d-flex justify-content-center">
+                    <span class="icon-instagram align-self-center"></span>
+                </div>
+            </div>
+            <!----->
+            <div class="col-sm-12 col-md">
+                <img src="https://i.postimg.cc/W3ZHD2sX/fa-4.jpg"class="img-fluid">
+                <div class="icon d-flex justify-content-center">
+                    <span class="icon-instagram align-self-center"></span>
+                </div>
+            </div>
+            <!----->
+            <div class="col-sm-12 col-md">
+                <img src="https://i.postimg.cc/bNr1Lmtj/fa-3.jpg"class="img-fluid">
+                <div class="icon d-flex justify-content-center">
+                    <span class="icon-instagram align-self-center"></span>
+                </div>
+            </div>
+            <!----->
+            <div class="col-sm-12 col-md">
+                <img src="https://i.postimg.cc/nz1qS52n/fa-5.jpg"class="img-fluid">
+                <div class="icon d-flex justify-content-center">
+                    <span class="icon-instagram align-self-center"></span>
+                </div>
+            </div>
+            <!----->
+            <div class="col-sm-12 col-md">
+                <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid">
+                <div class="icon d-flex justify-content-center">
+                    <span class="icon-instagram align-self-center"></span>
+                </div>
+            </div>
+            <!----->
+        </div>
+
+    </div>
+</section>
+<!---->
+<footer id="footer">
+    <div class="footer-newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h4>Join Our News Letter</h4>
+                    <p>You can join our Newsletter for all the updates prior to others.</p>
+                    <form>
+                        <input type="email"name="email">
+                        <input type="submit"value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="container py-4">
+      <div class="copyright">
+          &copy;Copyright<strong><span>YatraPhile</span></strong>
+          .All Rights Reserved
+      </div>
+      <div class="credits">
+          Designed by <a href="#">AyonJitArchit</a>
+      </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
